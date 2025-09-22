@@ -11,13 +11,14 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"    
   },
   "keywords": [],
   "author": "innasolp",
   "license": "ISC",
   "description": "test lib for stylesheet",
   "devDependencies": {
+    "@eslint/css": "^0.11.0",
     "eslint": "^9.36.0",
     "sass": "^1.93.0"
   },

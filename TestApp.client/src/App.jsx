@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import * as testConfirm from 'test_js_lib/confirm'
-import styles from 'test_css_lib/styles.css'
 
 
 function App() {
@@ -44,7 +43,7 @@ function App() {
         <div>
             <h1 id="tableLabel">Weather forecast</h1>
             <p>This component demonstrates fetching data from the server.</p>
-            <p className={styles.display_8}> TestApp </p>
+            <p className="display_8"> TestApp </p>
             {contents}
             {testView}    
         </div>

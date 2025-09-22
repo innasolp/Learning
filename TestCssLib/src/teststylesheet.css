@@ -1,4 +1,4 @@
-export .display_8 {
+.display_8 {
     font-size: calc(1.275rem + 0.3vw);
     font-weight: 300;
     line-height: 1.2;
