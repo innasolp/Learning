@@ -14,7 +14,8 @@ function App() {
 
     const contents = forecasts === undefined
         ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-        : <table className="table table-striped" aria-labelledby="tableLabel">
+        : <div>            
+            <table className="table table-striped" aria-labelledby="tableLabel">
             <thead>
                 <tr>
                     <th>Date</th>
@@ -33,7 +34,8 @@ function App() {
                     </tr>
                 )}
             </tbody>
-            </table>;
+            </table>
+        </div>;
 
     const testView = <div dangerouslySetInnerHTML={testViewHtml} />;
 
@@ -41,6 +43,7 @@ function App() {
         <div>
             <h1 id="tableLabel">Weather forecast</h1>
             <p>This component demonstrates fetching data from the server.</p>
+            <p className="display_8"> TestApp </p>
             {contents}
             {testView}    
         </div>

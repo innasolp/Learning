@@ -11,7 +11,7 @@
   <ItemGroup>
     <None Include=".vscode\launch.json" />
   </ItemGroup>
-	<Target Name="NpmLinkTestJsLibPackage" BeforeTargets="Build">
-		<Exec Command="npm link test_js_lib" />
-	</Target>
+	<Target Name="NpmLinkLibPackage" BeforeTargets="Build">
+		<Exec Command="npm link test_js_lib test_css_lib" />		
+	</Target>	
 </Project>

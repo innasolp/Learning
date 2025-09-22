@@ -1,3 +1,3 @@
-export function helloNpm() {
-    return "hello NPM";
+export function helloTestJsLib() {
+    return "hello test js lib";
 }

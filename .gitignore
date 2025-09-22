@@ -10,3 +10,5 @@
 /TestApp.Server/node_modules
 /TestJsLib/node_modules
 /TestJsLib/obj/Debug
+/TestCssLib/node_modules
+/TestCssLib/obj/Debug
